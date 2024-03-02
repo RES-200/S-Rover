@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <link rel="shortcut icon" href="./Images/frlIf.png" type="image/x-icon" />
+    <title>S-rover</title>
+  </head>
+  <body>
+    <div class="root">
+      <header>
+        <nav class="navbar">
+          <!-- <a href="#" class="nav-logo">WebDev.</a> -->
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#about" class="nav-link"><span>01.</span>About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link"><span>02.</span>Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link"><span>03.</span>Functionality</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link"><span>04.</span>Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
+      <aside id="media-links">
+        <ul>
+          <!-- <li>
+            <a href="https://github.com/Akshansh029" target="_blank"
+              ><i class="fa-regular fas fab fa-github"></i
+            ></a>
+          </li> -->
+          <!-- <li>
+            <a
+              href="https://www.instagram.com/__akshansh_singh/"
+              target="_blank"
+              ><i class="fa-regular fas fab fab fa-instagram"></i
+            ></a>
+          </li> -->
+          <li>
+            <a
+              href="https://github.com/RES-200"
+              target="_blank"
+              ><i class="fa-regular fas fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </aside>
+      <aside class="gmail-link">
+        <div class="vertical-text">
+          <a href="mailto:4dumbdevs@gmail.com" target="_blank"
+            >4dumbdevs@gmail.com</a
+          >
+        </div>
+      </aside>
+      <div class="wrapper">
+        <main>
+          <section id="home">
+            <div class="home-content">
+              <span>Hi, We are Team</span>
+              <div class="name-heading">
+                <h1 class="h1_name">5 Days of Summer.</h1>
+                <h1 class="h1_I_am">
+                  Presenting <span id="changing-element">S-rover</span>
+                </h1>
+              </div>
+              <p class="home-description">
+                Stay tuned to witness our collaborative journey unfold as we strive to make a meaningful impact in the world of technology. Let's hack away and make magic happen!              </p>
+              <button onclick="opneGithubProfile()" class="special-btn">
+                Check out our Github!
+              </button>
+            </div>
+          </section>
+          <section id="about">
+            <h1 class="section-heading">
+              <span class="heading-number">01.</span>About
+            </h1>
+            <div class="about-content">
+              <div class="personal-content">
+                <p class="description">
+                  Hello, We are Team 5 Days of Summer, our problem statement for today is to Design an autonomous rover to navigate and map unknown terrains by capturing sequential images and reducing reliance on human intervention in uncharted environments.
+                </p>
+                <p class="description">
+                    S-Rover (Sarovar) integrates cutting-edge sensors and navigation algorithms to autonomously explore and map unknown terrains. By capturing sequential images and stitching them in real-time, S-rover offers a versatile solution for enhanced exploration in inaccessible or hazardous environments.                </p>
+              </div>
+              <div class="my-interests">
+                <div class="my-interests-container">
+                  <h2 class="subheading">Our Stacks</h2>
+                  <div class="interests-grid-container">
+                    <div class="item">
+                      <i class="fa-regular fas fas fa-robot"></i>
+                      <h4>Robotics</h4>
+                    </div>
+                    <div class="item">
+                      <i class="fa-regular fab fa-python"></i>
+                      <h4>Python</h4>
+                    </div>
+                    <div class="item">
+                      <i class="fa-regular fab fa-python"></i>
+                      <h4>Opencv</h4>
+                    </div>
+                    <div class="item">
+                      <i class="fa-regular fa fa-google"></i>
+                      <h4>GCP</h4>
+                    </div>
+                    <div class="item">
+                      <i class="fa-regular fab fa-html5"></i>
+                      <h4>HTML</h4>
+                    </div>
+                    <div class="item">
+                      <i class="fa-regular fab fa-js"></i>
+                      <h4>javascript</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="skills">
+            <h1 class="section-heading">
+              <span class="heading-number">02.</span>Our Team
+            </h1>
+            <p class="description">
+                Hola Amigo! <br />
+                We're thrilled to introduce you to our website "s-rover.vercel.app" made by dynamic team of four talented individuals who are ready to take on challenges with passion, creativity, and expertise.
+                Each member brings a unique set of skills and experiences to the table, making us a formidable force. Together, we're committed to pushing the boundaries of innovation and developing cutting-edge solutions to the challenges presented to us.
+                Stay tuned to witness our collaborative journey unfold as we strive to make a meaningful impact in the world of technology. Let's hack away and make magic happen!
+            </p>
+            <div class="skills-container">
+              <div class="item">
+                <div class="icons">
+                  <i class="fa-regular fas fa-robot"></i>
+                  <i class="fa-regular fas fa-code"></i>
+                </div>
+                <h2>Shwetank Shekhar</h2>
+                <p>
+                    Hello! I'm an Electronics and Communication undergrad at VIT Chennai with a strong passion for machine learning. Currently leading the Payload Systems Team at Team Enthalpy and an active member IEEE CompSoc.</p>
+              </div>
+              <div class="item">
+                <div class="icons">
+                  <i class="fa-regular fas fa-code"></i>
+                </div>
+                <h2>Harshit Kumar Singh</h2>
+                <p>
+                    Ola! I'm an inquisitive Electronics and Computer undergrad at VIT Chennai. Currently holding the position of Joint Gen Sec at IEEE CompSoc. In future I would like to see myself making a difference in the world.</div>
+              <div class="item">
+                <div class="icons">
+                  <i class="fa-regular fas fa-robot"></i>
+                </div>
+                <h2>Utkarsh Rounak</h2>
+                <p>
+                    Greetings! I'm a sophomore at VIT Chennai, aspiring to become a Full Stack Developer. Alongside my academic journey, I serve as a Management Team Member at IEEE CS VITC.</p>
+              </div>
+              <div class="item">
+                <div class="icons">
+                  <i class="fa-regular fas fa-robot"></i>
+                  <i class="fa-regular fas fa-code"></i>
+                </div>
+                <h2>Shashwat Mishra</h2>
+                <p>
+                    Hey there, I'm Shashwat Mishra! I'm deeply passionate about software development and robotics. Always tinkering with code and building robots. Member of IEEECompSoc Technical Team</p>
+              </div>
+            </div>
+          </section>
+          <section id="projects">
+            <h1 class="section-heading">
+              <span class="heading-number">03.</span>Functionality
+              <div class="projects-container">
+                <div class="project-item" id="Epicurian-link">
+                  <div class="item-header">
+                    <i
+                      class="fa-regular far fa-folder"
+                      style="
+                        font-size: 2.2rem;
+                        color: var(--electric_blue);
+                        font-weight: 200;
+                      "
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                      style="font-size: 1.4rem"
+                    ></i>
+                  </div>
+                  <h2 class="projects-heading">Frames</h2>
+                  <p>
+                    Input Frames extracted from the videos.
+                  </p>
+                </div>
+                <div class="project-item" id="Blog-link">
+                  <div class="item-header">
+                    <i
+                      class="fa-regular far fa-folder"
+                      style="font-size: 2.2rem; color: var(--electric_blue)"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                      style="font-size: 1.4rem"
+                    ></i>
+                  </div>
+                  <h2 class="projects-heading">Mapped Annulus</h2>
+                  <p>
+                    Visualization for the annular ring to be extracted.
+                  </p>
+                </div>
+                <div class="project-item" id="Weather-link">
+                  <div class="item-header">
+                    <i
+                      class="fa-regular far fa-folder"
+                      style="font-size: 2.2rem; color: var(--electric_blue)"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                      style="font-size: 1.4rem"
+                    ></i>
+                  </div>
+                  <h2 class="projects-heading">Annulus Ring Strips</h2>
+                  <p>
+                    Annular ring strips extracted.
+                  </p>
+                </div>
+                <div class="project-item" id="Rock-paper-scissors-link">
+                  <div class="item-header">
+                    <i
+                      class="fa-regular far fa-folder"
+                      style="
+                        font-size: 2.2rem;
+                        color: var(--electric_blue);
+                        font-weight: 200;
+                      "
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                      style="font-size: 1.4rem"
+                    ></i>
+                  </div>
+                  <h2 class="projects-heading">Rectangular Strips</h2>
+                  <p>
+                    Transformed annular ring strips into rectangular strips.
+                  </p>
+                </div>
+                <div class="project-item" id="Stopwatch-link">
+                  <div class="item-header">
+                    <i
+                      class="fa-regular far fa-folder"
+                      style="font-size: 2.2rem; color: var(--electric_blue)"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                      style="font-size: 1.4rem"
+                    ></i>
+                  </div>
+                  <h2 class="projects-heading">Color Maps</h2>
+                  <p>
+                    Applied colormap on the stacked rectangular strips.
+                  </p>
+                </div>
+                <div class="project-item" id="Calculator-link">
+                  <div class="item-header">
+                    <i
+                      class="fa-regular far fa-folder"
+                      style="font-size: 2.2rem; color: var(--electric_blue)"
+                    ></i>
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                      style="font-size: 1.4rem"
+                    ></i>
+                  </div>
+                  <h2 class="projects-heading">Maps</h2>
+                  <p>
+                    Final output(s).
+                  </p>
+                </div>
+              </div>
+            </h1>
+          </section>
+          <section id="contact">
+            <div class="contact-container">
+              <h1 id="contact-heading"><span>04.</span>Contact</h1>
+              <h2>Get in touch</h2>
+              <p>
+                Your feedback is crucial! Please take a moment to share your
+                thoughts on our project. Your insights will help us
+                improve and tailor the experience. Thank you for your time!
+              </p>
+            </div>
+            <button class="special-btn" onclick="mailTo()">Contact me!</button>
+          </section>
+        </main>
+        <footer id="footer">
+          <p id="devName">Built by Shashwat Mishra, Harshit Singh, Shwetank Shekhar and Utkarsh Rounak</p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      src="https://kit.fontawesome.com/52bc4c145c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
