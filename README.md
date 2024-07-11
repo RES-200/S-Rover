@@ -75,7 +75,7 @@ Feel free to contribute! Check out the Contribution Guidelines for more informat
 1. [ShekharShwetank](https://github.com/ShekharShwetank) - **Team Lead**
 2. [harshitsinghcode](https://github.com/harshitsinghcode)
 3. [Shashwat Mishra](https://github.com/Shashwatm74)
-4. [Utkarsh Raunak](https://github.com/utkxrsx)
+4. [Utkarsh Rounak](https://github.com/utkxrsx)
 
 **S-Rover** is more than just a project, it addresses the critical need for reliable mapping in environments where human access is limited or unsafe, offering a solution that minimizes reliance on human intervention. 
 
